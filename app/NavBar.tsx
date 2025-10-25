@@ -21,9 +21,7 @@ const NavBar = () => {
           </Link>
         </div>
       )}
-      {status === "unauthenticated" && (
-        <Link href="/api/auth/signin">Login</Link>
-      )}
+      {status === "unauthenticated" && <Link href="/login">Login</Link>}
     </div>
   );
 };
