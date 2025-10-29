@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { error } from "console";
 import { NextRequest, NextResponse } from "next/server";
 import schema from "../schema";
