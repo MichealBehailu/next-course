@@ -7,6 +7,7 @@ const GoogleAnalyticsScript = () => {
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-E720JHXSJ1"
+        id="google-analytics"
       ></Script>
       <Script>
         {` window.dataLayer = window.dataLayer || [];
@@ -17,6 +18,6 @@ const GoogleAnalyticsScript = () => {
       </Script>
     </>
   );
-}; 
+};
 
 export default GoogleAnalyticsScript;
